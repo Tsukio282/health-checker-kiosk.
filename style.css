@@ -1,0 +1,42 @@
+body {
+    background-color: #0b1117; /* Deep Navy */
+    color: #e0f7fa;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#bmiForm {
+    background: #1a2733;
+    padding: 2rem;
+    border: 1px solid #4fb3d9; /* Electric Cyan */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+input, select, button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #4fb3d9;
+    background: #0b1117;
+    color: white;
+}
+
+button {
+    background: #4fb3d9;
+    color: #0b1117;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Responsive: Stack on small screens */
+@media (max-width: 600px) {
+    #bmiForm { width: 90%; }
+}
+
+.hidden { display: none; }
