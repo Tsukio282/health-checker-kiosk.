@@ -52,7 +52,7 @@ function displayResult(name, bmi, category, message, color) {
 }
 
 function recordSubmission(record) {
-    fetch('AKfycbzlLBt75V4YhWiLUZRZKvSh92Azki4EORhkY81xxhbdfNkbNkiXxbSzDf2fbWUCrPn-', {
+    fetch('AKfycbzNZFkDx5rqI7TAa3OAXisdh9ROeU1UntNdtWApoqcin9F2IIDNNP4_tj1hb97cZSP5', {
         method: 'POST',
         body: JSON.stringify(record)
     }).catch(err => console.error('Could not record submission:', err));
